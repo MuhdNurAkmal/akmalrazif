@@ -198,7 +198,7 @@ section {
     height: 100%;
     background: transparent;
     background-size: cover;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     overflow: hidden;
     align-items: center;
 }
