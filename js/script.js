@@ -35,4 +35,4 @@ window.onscroll = () => {
     // remove navbar after click links
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
-} 
+}
