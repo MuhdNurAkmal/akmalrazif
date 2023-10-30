@@ -10,4 +10,4 @@ This website is still in ongoing process where there are a lot of things need to
 
 Stay tuned and thank you 😁
 
-![Logo](https://github.com/MuhdNurAkmal/akmalrazif/assets/93871877/f0f78656-a569-494f-9db7-de895f63f74f)
+<img src="https://github.com/MuhdNurAkmal/akmalrazif/assets/93871877/f0f78656-a569-494f-9db7-de895f63f74f" width="100">
