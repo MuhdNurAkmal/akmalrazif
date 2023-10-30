@@ -15,7 +15,7 @@ Welcome to my portfolio website, a comprehensive showcase of my journey as a ded
 
 ## ⚠️ Disclaimer
 
-Please note that this website is a work in progress. I am actively refining and updating its content to provide you with the best possible representation of my capabilities. Your patience is highly appreciated.
+Please note that this website is a **WORK IN PROGRESS**. I am actively refining and updating its content to provide you with the best possible representation of my capabilities. Your patience is highly appreciated.
 
 Stay tuned for the official launch, and thank you for your interest! 😁
 
