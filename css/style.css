@@ -64,7 +64,7 @@ body {
 }
 
 .navbar a:hover,
-.navbar a.active {
+.navbar a.active-link {
   color: var(--main-color);
 }
 
@@ -345,25 +345,25 @@ body {
 }
 
 .works-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0.5rem 0;
 }
 
 .works-date {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-style: italic;
   margin: 0 0 .5rem;
   color: gray;
 }
 
 .works-text {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: justify;
   min-height: 8rem;
 }
 
 .works-tech {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin: 1rem 0 0;
 }
 
