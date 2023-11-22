@@ -10,17 +10,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyWqTQ7BY5lCzg3Phc2b+a5qRUalSnHsn"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <!-- header design -->
     <header class="header">
-      <a href="/" class="logo">Akmal Akmal</a>
+      <a href="#home" class="logo">Akmal Akmal</a>
       <div class="bx bx-menu" id="menu-icon"></div>
       <nav class="navbar">
         <a href="#about">About Me</a>
-        <a href="#skills">Works</a>
-        <a href="#works">Blogs</a>
+        <a href="#skills">Expertise</a>
+        <a href="#works">Projects</a>
         <a href="#contact">Contact Me</a>
       </nav>
     </header>
@@ -50,14 +56,14 @@
       </div>
 
       <div class="home-img">
-        <img src="assets/prof-pics.png" alt="" />
+        <img src="assets/prof-pics.png" alt="" hidden />
       </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="assets\activities\perbarisan.jpg" alt="" />
+        <img src="assets/activities/about-me.jpg" alt="" />
       </div>
       <div class="about-content">
         <h3>About Me</h3>
@@ -79,46 +85,38 @@
     <section class="skills" id="skills">
       <h3 class="title">Expertise</h3>
       <div class="skills-set">
-        <div class="skills-card">
-          <img src="assets/data-science.png" />
-          <div class="skills-content">
-            <h5 class="skills-title">Data Science</h5>
-            <p class="skills-desc">
-              Skilled in Python for data analysis, machine learning and computer
-              vision tasks. Have experience in several project related to them.
-            </p>
+        <div class="skill-item">
+          <h2>Programming Languages</h2>
+          <div class="lang-icon">
+            <img src="assets/icons/languages/python.png" alt="" />
+            <img src="assets/icons/languages/java.png" alt="" />
+            <img src="assets/icons/languages/html.png" alt="" />
+            <img src="assets/icons/languages/css.png" alt="" />
+            <img src="assets/icons/languages/javascript.png" alt="" />
           </div>
         </div>
-        <div class="skills-card">
-          <img src="assets/artificial-intelligence.png" />
-          <div class="skills-content">
-            <h5 class="skills-title">Artificial Intelligence</h5>
-            <p class="skills-desc">
-              Involved in various robotic projects including Arduino, Bioloid
-              and etc. I possess expertise in programming languages like C and
-              C++.
-            </p>
+        <div class="skill-item">
+          <h2>ML / DL</h2>
+          <div class="lib-icon">
+            <img src="assets/icons/libraries/tensorflow.png" alt="" />
+            <img src="assets/icons/libraries/keras.png" alt="" />
+            <img src="assets/icons/libraries/pytorch.png" alt="" />
+            <img src="assets/icons/libraries/numpy.png" alt="" />
+            <img src="assets/icons/libraries/pandas.png" alt="" />
           </div>
         </div>
-        <div class="skills-card">
-          <img src="assets/web-dev.png" />
-          <div class="skills-content">
-            <h5 class="skills-title">Web Development</h5>
-            <p class="skills-desc">
-              Versatile web developer proficient in HTML, CSS, and Javascript
-              for building dynamic and responsive web applications.
-            </p>
+      </div>
+      <div class="skills-set">
+        <div class="skill-item">
+          <h2>Tools</h2>
+          <div class="tools-icon">
+            <img src="assets/icons/python.png" alt="" />
           </div>
         </div>
-        <div class="skills-card">
-          <img src="assets/videography.png" />
-          <div class="skills-content">
-            <h5 class="skills-title">Videography</h5>
-            <p class="skills-desc">
-              Experienced videographer with skills on Capcut, can do jedag-jedug
-              videos. Received The Best Jedag-Jedug Videographer and Jaguh
-              Kampung.
-            </p>
+        <div class="skill-item">
+          <h2>Others</h2>
+          <div class="other-icon">
+            <img src="assets/icons/python.png" alt="" />
           </div>
         </div>
       </div>
@@ -126,24 +124,28 @@
 
     <!-- works section -->
     <section class="works" id="works">
-      <h3 class="title">Current Works</h3>
+      <h3 class="title">Recent Works</h3>
       <div class="works-set">
         <div class="works-card">
-          <img src="assets/activities/perbarisan.jpg" />
+          <img src="assets/projects/getahpedia.png" />
           <div class="works-content">
-            <h5 class="works-title">Data Science</h5>
+            <h5 class="works-title">Getahpedia</h5>
             <p class="works-text">
-              Skilled in Python for data analysis, machine learning and computer
-              vision tasks. Have experience in several project related to them.
+              Mobile application integrated with a deep learning model for
+              rubber tree leaf disease detection. Aims to help farmer to detect
+              leaf disease efficiently.
             </p>
           </div>
-          <div class="works-link">
-            <a href="#">View Project</a>
-            <a href="#" class="bx bx-link-external"></a>
+          <div class="works-tech">
+            <p>Python</p>
+            <p>Tensorflow</p>
+            <p>Flutter</p>
+            <p>Dart</p>
           </div>
         </div>
+
         <div class="works-card">
-          <img src="assets/activities/perbarisan.jpg" />
+          <img src="assets/projects/getahpedia.png" />
           <div class="works-content">
             <h5 class="works-title">Artificial Intelligence</h5>
             <p class="works-text">
@@ -152,13 +154,15 @@
               C++.
             </p>
           </div>
-          <div class="works-link">
-            <a href="#">View Project</a>
-            <a href="#" class="bx bx-link-external"></a>
+          <div class="works-tech">
+            <p>Lang</p>
+            <p>Framework</p>
+            <p>Libraries</p>
           </div>
         </div>
+
         <div class="works-card">
-          <img src="assets/activities/perbarisan.jpg" />
+          <img src="assets/projects/getahpedia.png" />
           <div class="works-content">
             <h5 class="works-title">Web Development</h5>
             <p class="works-text">
@@ -166,15 +170,13 @@
               for building dynamic and responsive web applications.
             </p>
           </div>
-          <div class="works-link">
-            <a href="#">View Project</a>
-            <a href="#" class="bx bx-link-external"></a>
+          <div class="works-tech">
+            <p>Python</p>
+            <p>Tensorflow</p>
+            <p>Flutter</p>
+            <p>Dart</p>
           </div>
         </div>
-      </div>
-      <div class="btn-more">
-        <a href="#" class="btn">See more</a>
-        <a href="#" class="bx bx-right-arrow-alt"></a>
       </div>
     </section>
 
@@ -227,5 +229,20 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-XFIlT2sAElA1fbl5e3fNci4R3U2uEixTqpgTzU5JqVnLq+8q8F5t+2a4S3Jqj5aj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyWqTQ7BY5lCzg3Phc2b+a5qRUalSnHsn"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

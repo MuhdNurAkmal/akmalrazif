@@ -35,7 +35,9 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 3% 2rem;
+  border-bottom: 1px black solid;
+  /* padding: 10rem 3% 2rem; */
+  /* padding: 10rem; */
 }
 
 /***************************************************/
@@ -46,16 +48,12 @@ section {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: transparent;
+  background: var(--bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
   transition: 0.3s;
-}
-
-.header.sticky {
-  background: var(--bg-color);
   box-shadow: 0px 1px 10px #999;
 }
 
@@ -211,12 +209,19 @@ section {
   padding: 0 9%;
 }
 
+.about-img {
+  max-width: 40%;
+}
+
+.about-img {
+  margin: auto;
+}
 .about-img img {
   width: 100%;
 }
 
 .about-content {
-  margin: 2rem 10rem 5rem;
+  margin: 2rem 4rem 5rem;
 }
 
 .about-content h3 {
@@ -233,48 +238,48 @@ section {
 /* SKILL SECTION */
 .skills {
   min-height: 100vh;
-  padding: 13rem 9%;
+  padding: 10rem 9%;
 }
 
 .title {
   font-size: 4rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
 .skills-set {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
-.skills-card {
-  min-width: 20rem;
-  max-width: 30rem;
-  padding: 2.5rem;
+.skills-set h2 {
+  font-size: 1.8rem;
+  margin: 3rem 0;
+}
+
+.skill-item {
+  flex-direction: row;
+  width: 100%;
+  border: 1px black solid;
+}
+
+.skill-item h2 {
+  font-size: 1.8rem;
+  padding: .5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.skill-item img {
+  width: 9rem;
+  padding: .5rem;
   margin: 0 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.skills-card img {
-  width: 9em;
-}
-
-.skills-title {
-  font-size: 2rem;
-  margin: 0.6rem 0;
-}
-
-.skills-desc {
-  font-size: 1.5rem;
-  text-align: justify;
 }
 
 /***************************************************/
 /* WORK SECTION */
 .works {
   min-height: 100vh;
-  padding: 13rem 9%;
+  padding: 10rem 9%;
 }
 
 .works-set {
@@ -286,15 +291,21 @@ section {
   width: 40rem;
   padding: 2.5rem;
   margin: 0 1rem;
-  background-color: rgb(201, 201, 201);
+  background-color: whitesmoke;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.coming-soon {
+  filter: blur(3px);
+  content-visibility: hidden;
 }
 
 .works-card img {
   width: 100%;
   align-items: center;
+  border-radius: 8px;
 }
 
 .works-title {
@@ -303,14 +314,27 @@ section {
 }
 
 .works-text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: justify;
-  min-height: 10rem;
+  min-height: 8rem;
 }
 
-.works-link {
-  margin: 2rem 0 0;
-  font-size: 1.5rem;
+.works-tech {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.works-tech p {
+  font-size: 1.3rem;
+  border: 1px black solid;
+  border-radius: 1.2rem;
+  padding: 0.7rem;
+  width: 9.5rem;
+  margin: 1rem 0.5rem 0 0;
+  /* background-color: #0077b5;
+  color: white; */
 }
 
 .btn-more {
@@ -320,15 +344,17 @@ section {
   margin-right: 2rem;
 }
 
+
 /***************************************************/
 /* CONTACT FORM */
 .contact {
   min-height: auto;
-  padding-bottom: 7rem;
+  padding: 9rem 9%;
 }
 
 .contact h3 {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .contact form {
@@ -379,10 +405,12 @@ section {
 
 .contact form .textarea-field textarea {
   resize: none;
+  max-height: 20rem;
 }
 
 .contact form .btn-box.btns .btn {
   cursor: pointer;
+  margin: auto;
 }
 
 .footer {
