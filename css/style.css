@@ -33,13 +33,6 @@ body {
   align-items: center;
 }
 
-section {
-  /* min-height: 70vh; */
-  border-bottom: 1px black solid;
-  /* padding: 10rem 3% 2rem; */
-  /* padding: 10rem; */
-}
-
 /***************************************************/
 /* HEADER + NAVBAR */
 .header {
@@ -322,7 +315,7 @@ section {
 /***************************************************/
 /* WORK SECTION */
 .works {
-  padding: 5rem 9%;
+  padding: 7rem 9%;
 }
 
 .works-set {
