@@ -1,19 +1,18 @@
-document.addEventListener('DOMContentLoaded', function () {
+
   let menuIcon = document.querySelector("#menu-icon");
   let navbarLinks = document.querySelectorAll(".navbar a");
 
   menuIcon.onclick = () => {
     menuIcon.classList.toggle("bx-x");
-    navbarLinks.forEach(link => link.classList.toggle("active-link"));
+    navbarLinks.forEach(link => link.classList.toggle("active"));
   };
 
   navbarLinks.forEach(link => {
     link.addEventListener('click', function () {
-      navbarLinks.forEach(otherLink => otherLink.classList.remove("active-link"));
+      navbarLinks.forEach(otherLink => otherLink.classList.remove("active"));
       this.classList.add("active-link");
     });
   });
-});
 
 const jobTitles = ["Aspiring Data Scientist", "Computer Vision Intern"];
   let index = 0;
@@ -23,4 +22,4 @@ const jobTitles = ["Aspiring Data Scientist", "Computer Vision Intern"];
     index = (index + 1) % jobTitles.length;
   }
 
-  setInterval(updateJobTitle, 2000);
+  setInterval(updateJobTitle, 1500);
