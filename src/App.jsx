@@ -1,3 +1,5 @@
+import About from "./components/About";
+import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -8,8 +10,10 @@ const App = () => {
     <>
       <NavBar />
       <LandingPage />
+      <About />
       <Skills />
       <Projects />
+      <Footer />
     </>
   );
 };

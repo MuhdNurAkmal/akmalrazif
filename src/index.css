@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-    .align-element {
-        @apply mx-auto max-w-7xl px-8
-    }
+  .align-element {
+    @apply w-full mx-auto max-w-7xl px-8;
+  }
+  .btnTab {
+    @apply py-2 px-4 flex-1 rounded-3xl;
+  }
+  .btnTabActive {
+    @apply bg-white text-black;
+  }
+  .skillIcon {
+    @apply w-16 h-16;
+  }
 }

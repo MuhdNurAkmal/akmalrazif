@@ -1,12 +1,12 @@
 import SectionTitle from "./SectionTitle";
-import SkillCard from "./SkillCard";
-import { skills } from "../data";
+import SkillCard from "../cards/SkillCard";
+import { skills } from "../data/skillData";
 
 const Skills = () => {
   return (
     <section className="align-element py-20" id="skills">
-      <SectionTitle text="Tech Stack" />
-      <div className="py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <SectionTitle text="Skill Unlocked" icon="🧑🏻‍💻" />
+      <div className="py-16 grid gap-8 grid-cols-4 md:grid-cols-6">
         {skills.map((skill) => {
           return <SkillCard key={skill.id} {...skill} />;
         })}
@@ -14,4 +14,4 @@ const Skills = () => {
     </section>
   );
 };
-export default Skills;
+export default Skills;    
