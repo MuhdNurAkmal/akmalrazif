@@ -7,6 +7,16 @@ export const links = [
   { id: nanoid(), href: "projects", text: "projects" },
 ];
 
+export const experience = [
+  {
+    id: nanoid(),
+    title: "Universiti Kebangsaan Malaysia (UKM)",
+    location: 'Bangi, Selangor',
+    desc: "Degree jee dowhhh",
+    date: 'August 2024 - present'
+  },
+];
+
 export const projects = [
   {
     id: nanoid(),

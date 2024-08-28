@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import NavBar from "./components/NavBar";

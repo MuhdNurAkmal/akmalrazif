@@ -1,6 +1,5 @@
 import ProjectCard from "../cards/ProjectCard";
 import SectionTitle from "./SectionTitle";
-import { projects } from "../data/data";
 import { useFetchProjects } from "./fetchProject";
 
 const Projects = () => {
