@@ -6,7 +6,7 @@ import { useFetchProjects } from "./fetchProject";
 const Projects = () => {
   const { loading, projects } = useFetchProjects();
   return (
-    <section className="align-element py-20" id="projects">
+    <section className="align-element py-24" id="projects">
       <SectionTitle text="Recent Works" />
       <div className="py-16 grid md:grid-cols-3 gap-8">
         {projects.map((project) => {

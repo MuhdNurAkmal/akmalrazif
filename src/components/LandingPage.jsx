@@ -2,7 +2,7 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const LandingPage = () => {
   return (
-    <div className="py-24">
+    <div className="py-24" id="/">
       <div className="align-element grid md:grid-cols-2 items-center gap-24">
         <article>
           <h1 className="text-5xl font-bold tracking-wide">Akmal Razif</h1>

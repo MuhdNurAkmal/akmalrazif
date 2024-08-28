@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { links } from "../data/data";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,13 +31,17 @@ const NavBar = () => {
             {links.map((link) => {
               const { id, href, text } = link;
               return (
-                <a
+                <Link
                   key={id}
-                  href={href}
-                  className="capitalize text-lg tracking-wide hover:text-blue-600 transition duration-300"
+                  to={href}
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={0}
+                  className="capitalize text-lg tracking-wide hover:text-blue-600 transition duration-300 cursor-default"
                 >
                   {text}
-                </a>
+                </Link>
               );
             })}
           </div>

@@ -6,7 +6,7 @@ const About = () => {
   const [activeTab, setActiveTab] = useState("about");
 
   return (
-    <section className="align-element py-14" id="about">
+    <section className="align-element py-24" id="about">
       <div className="sm:flex flex-row items-center justify-between">
         <SectionTitle text="flashback to my journey" icon='🚀' />
         <div className="flex justify-center py-10">
