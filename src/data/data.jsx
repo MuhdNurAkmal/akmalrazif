@@ -1,4 +1,7 @@
 import { nanoid } from "nanoid";
+import webdev from "../assets/webdev.svg";
+import appdev from "../assets/appdev.svg";
+import aidev from "../assets/aidev.svg";
 
 export const links = [
   { id: nanoid(), href: "/", text: "" },
@@ -47,16 +50,16 @@ export const interests = [
   {
     id: nanoid(),
     title: "Web Development",
-    icon: "../assets/webdev.svg",
+    icon: webdev,
   },
   {
     id: nanoid(),
     title: "Mobile Application Development",
-    icon: "../assets/appdev.svg",
+    icon: appdev,
   },
   {
     id: nanoid(),
     title: "Artificial Intelligence",
-    icon: "../assets/aidev.svg",
+    icon: aidev,
   },
 ];
