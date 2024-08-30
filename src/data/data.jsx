@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-import { FaGraduationCap } from "react-icons/fa";
 
 export const links = [
   { id: nanoid(), href: "/", text: "" },
@@ -48,16 +47,16 @@ export const interests = [
   {
     id: nanoid(),
     title: "Web Development",
-    icon: "../src/assets/webdev.svg",
+    icon: "/assets/webdev.svg",
   },
   {
     id: nanoid(),
     title: "Mobile Application Development",
-    icon: "../src/assets/appdev.svg",
+    icon: "/assets/appdev.svg",
   },
   {
     id: nanoid(),
     title: "Artificial Intelligence",
-    icon: "../src/assets/aidev.svg",
+    icon: "/assets/aidev.svg",
   },
 ];
