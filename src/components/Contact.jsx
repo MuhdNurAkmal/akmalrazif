@@ -32,6 +32,18 @@ const Contact = () => {
               />
             </div>
             <div className="mb-4">
+              <label className="block text-sm font-bold mb-2" htmlFor="subject">
+                Subject
+              </label>
+              <input
+                className="w-full p-2 border rounded"
+                type="text"
+                id="subject"
+                name="subject"
+                required
+              />
+            </div>
+            <div className="mb-4">
               <label className="block text-sm font-bold mb-2" htmlFor="message">
                 Message
               </label>

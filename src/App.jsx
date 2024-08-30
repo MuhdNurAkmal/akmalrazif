@@ -5,17 +5,18 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Achievement from "./components/Achievement";
+import ArrowTop from "./components/ArrowTop";
 
 const App = () => {
   return (
     <>
       <NavBar />
+      <ArrowTop />
       <LandingPage />
       <About />
       <Skills />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </>
   );

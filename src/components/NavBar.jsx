@@ -5,9 +5,14 @@ import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleSetActive = (id) => {
+    setActiveLink(id);
   };
 
   return (
@@ -40,7 +45,13 @@ const NavBar = () => {
                   smooth={true}
                   offset={0}
                   duration={0}
-                  className="capitalize text-lg tracking-wide hover:text-blue-600 transition duration-300 cursor-default"
+                  onClick={() => handleSetActive(id)}
+                  onSetActive={() => handleSetActive(id)}
+                  className={`capitalize text-lg tracking-wide cursor-pointer transition duration-300 ${
+                    activeLink === id
+                      ? "text-blue-600 font-bold"
+                      : "hover:text-blue-600"
+                  }`}
                 >
                   {text}
                 </Link>

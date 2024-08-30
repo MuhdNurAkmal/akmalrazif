@@ -8,43 +8,43 @@ import { experiences } from "../data/data";
 
 const Experience = () => {
   return (
-    <section className="pt-20">
+    <div className="pt-10 sm:col-span-4 sm:p-0">
       <div>
         {experiences.map((experience) => {
-          const tag = experience.tag === "work" ? "right" : "left";
           const icon =
             experience.tag === "work" ? <FaSuitcase /> : <FaGraduationCap />;
           return (
             <>
-              <VerticalTimeline>
+              <VerticalTimeline className="sm:mr-96">
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--education"
                   contentStyle={{
                     background: "#2563eb",
                     color: "#fff",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid  #2563eb",
+                    borderRight: "7px solid #2563eb",
                   }}
-                  date={experience.date}
+                  date=<div className="mr-6">{experience.date}</div>
                   iconStyle={{ background: "#2563eb", color: "#fff" }}
                   icon={icon}
-                  position={tag}
+                  position={"right"}
                 >
-                  <h3 className="vertical-timeline-element-title">
+                  <h3 className="vertical-timeline-element-title font-bold text-lg tracking-wide">
                     {experience.title}
                   </h3>
-                  <h4 className="vertical-timeline-element-subtitle">
+                  <h4 className="vertical-timeline-element-subtitle text-sm italic sm:text-base">
                     {experience.location}
                   </h4>
-                  <p>{experience.desc}</p>
+                  <div className="text-justify">
+                    <p>{experience.desc}</p>
+                  </div>
                 </VerticalTimelineElement>
               </VerticalTimeline>
             </>
           );
         })}
       </div>
-    </section>
+    </div>
   );
 };
 export default Experience;

@@ -2,6 +2,7 @@ import { nanoid } from "nanoid";
 import { FaGraduationCap } from "react-icons/fa";
 
 export const links = [
+  { id: nanoid(), href: "/", text: "" },
   { id: nanoid(), href: "about", text: "about" },
   { id: nanoid(), href: "skills", text: "skills" },
   { id: nanoid(), href: "projects", text: "projects" },
@@ -11,61 +12,52 @@ export const links = [
 export const experiences = [
   {
     id: nanoid(),
-    title: "Web Developer",
+    title: "Developer",
     location: "Freelance",
-    desc: "Degree jee dowhhh",
-    date: "August 2023 - Present",
+    desc: "Working as a freelance developer on various projects, focusing on web development and data analytics. Engaged in both frontend and backend development tasks to create functional and user-friendly applications.",
+    date: "Aug 2023 - Present",
     tag: "work",
-  },
-  {
-    id: nanoid(),
-    title: "Bachelor of Computer Science with Honors",
-    location: "Universiti Kebangsaan Malaysia (UKM)",
-    desc: "Degree jee dowhhh",
-    date: "October 2020 - August 2024",
-    tag: "edu",
   },
   {
     id: nanoid(),
     title: "Research Assistant Intern (Computer Vision)",
-    location: "Aerospace Malaysia Innovation Centre",
-    desc: "Degree jee dowhhh",
-    date: "September 2023 - January 2024",
+    location: "Aerospace Malaysia Innovation Centre (AMIC), Kajang",
+    desc: "A 5-month internship involved developing an advanced aircraft part identification model using the OS2D architecture, engineered a pathfinder algorithm specifically designed for high-mix, low-volume scenarios. Combining these innovations into 'PathGen', an integrated solution that guides the UR10 robot for precise spraying and enhancing overall operational efficiency.",
+    date: "Sep 2023 - Jan 2024",
     tag: "work",
   },
   {
     id: nanoid(),
+    title: "Bachelor of Computer Science (Hons)",
+    location: "Universiti Kebangsaan Malaysia (UKM), Bangi",
+    desc: "Graduated with a strong foundation in software development, web development, data science, and artificial intelligence, equipping me with advanced skills and knowledge in these areas.",
+    date: "Oct 2020 - Aug 2024",
+    tag: "edu",
+  },
+  {
+    id: nanoid(),
     title: "Science Modul II",
-    location: "Kolej Matrikulasi Perak (KMPk)",
-    desc: "Degree jee dowhhh",
+    location: "Kolej Matrikulasi Perak (KMPk), Gopeng",
+    desc: "Completed Science Modul II at Kolej Matrikulasi Perak, focusing on fundamental scientific principles and preparation for higher education in the field of science and technology.",
     date: "May 2019 - May 2020",
     tag: "edu",
   },
 ];
 
-export const achievements = [
+export const interests = [
   {
     id: nanoid(),
-    title: "Graduated with Honours",
-    desc: "Degree jee dowhhh",
-    date: "August 2024",
+    title: "Web Development",
+    icon: "../src/assets/webdev.svg",
   },
   {
     id: nanoid(),
-    title: "Graduated with Honours",
-    desc: "Degree jee dowhhh",
-    date: "August 2024",
+    title: "Mobile Application Development",
+    icon: "../src/assets/appdev.svg",
   },
   {
     id: nanoid(),
-    title: "Graduated with Honours",
-    desc: "Degree jee dowhhh",
-    date: "August 2024",
-  },
-  {
-    id: nanoid(),
-    title: "Graduated with Honours",
-    desc: "Degree jee dowhhh",
-    date: "August 2024",
+    title: "Artificial Intelligence",
+    icon: "../src/assets/aidev.svg",
   },
 ];
