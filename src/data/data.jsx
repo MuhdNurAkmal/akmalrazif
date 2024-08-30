@@ -47,16 +47,16 @@ export const interests = [
   {
     id: nanoid(),
     title: "Web Development",
-    icon: "/assets/webdev.svg",
+    icon: "../assets/webdev.svg",
   },
   {
     id: nanoid(),
     title: "Mobile Application Development",
-    icon: "/assets/appdev.svg",
+    icon: "../assets/appdev.svg",
   },
   {
     id: nanoid(),
     title: "Artificial Intelligence",
-    icon: "/assets/aidev.svg",
+    icon: "../assets/aidev.svg",
   },
 ];
