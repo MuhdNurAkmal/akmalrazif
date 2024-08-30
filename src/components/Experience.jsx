@@ -18,14 +18,14 @@ const Experience = () => {
               <VerticalTimeline className="sm:mr-96">
                 <VerticalTimelineElement
                   contentStyle={{
-                    background: "#2563eb",
-                    color: "#fff",
+                    background: "#1e40af",
+                    color: "#FAF9F6",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid #2563eb",
+                    borderRight: "7px solid #1e40af",
                   }}
                   date=<div className="mr-6">{experience.date}</div>
-                  iconStyle={{ background: "#2563eb", color: "#fff" }}
+                  iconStyle={{ background: "#1e40af", color: "#FAF9F6" }}
                   icon={icon}
                   position={"right"}
                 >

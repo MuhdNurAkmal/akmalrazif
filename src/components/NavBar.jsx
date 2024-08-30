@@ -15,9 +15,11 @@ const NavBar = () => {
     setActiveLink(id);
   };
 
+  // bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900
+
   return (
     <>
-      <nav className="sticky top-0 bg-mainBackground z-10">
+      <nav className="sticky top-0 z-10 bg-gray-900">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
             <h2 className="text-3xl font-bold">
@@ -50,7 +52,7 @@ const NavBar = () => {
                   className={`capitalize text-lg tracking-wide cursor-pointer transition duration-300 ${
                     activeLink === id
                       ? "text-blue-600 font-bold"
-                      : "hover:text-blue-600"
+                      : "hover:text-blue-900"
                   }`}
                 >
                   {text}

@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        mainBackground: "#0f0f10",
-        mainText: "#e7e7e4",
+        mainText: "#fff",
         secondaryText: "#60a5fa",
+      },
+      fontFamily: {
+        figtree: ["Figtree"],
+      },
+      backgroundImage: {
+        bgImg: "url('./assets/bgLanding.jpg')",
       },
     },
   },
