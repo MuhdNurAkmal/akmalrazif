@@ -12,10 +12,12 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 bg-[#181818]">
+      <nav className="sticky top-0 bg-mainBackground z-10">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
-            <img src="/malzip.svg" className="h-14 w-auto sm:h-16" alt="Logo" />
+            <h2 className="text-3xl font-bold">
+              Mal<span className="text-secondaryText">Code</span>
+            </h2>
             <button
               onClick={toggleMenu}
               className="text-3xl sm:hidden ml-auto focus:outline-none"

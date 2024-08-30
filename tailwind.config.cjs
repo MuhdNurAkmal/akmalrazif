@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        maxGradient: "#00172d",
-        minGradient: "#02386e",
-        mainText: "#FFF",
+        mainBackground: "#0f0f10",
+        mainText: "#e7e7e4",
+        secondaryText: "#60a5fa",
       },
     },
   },
