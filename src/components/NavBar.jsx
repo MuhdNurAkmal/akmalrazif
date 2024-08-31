@@ -15,11 +15,9 @@ const NavBar = () => {
     setActiveLink(id);
   };
 
-  // bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900
-
   return (
     <>
-      <nav className="sticky top-0 z-10 bg-gray-900">
+      <nav className="sticky top-0 z-10 bg-[#020c2d]">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
             <h2 className="text-3xl font-bold">

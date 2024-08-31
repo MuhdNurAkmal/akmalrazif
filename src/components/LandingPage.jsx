@@ -3,7 +3,7 @@ import profpics from "../assets/profpics.jpg";
 
 const LandingPage = () => {
   return (
-    <div className="py-20 bg-bgImg bg-cover sm:bg-cover" id="/">
+    <div className="py-20 bg-bgImg bg-cover" id="/">
       <div className="align-element grid justify-center sm:grid-cols-2 items-center gap-14">
         <article className="order-2 text-center sm:order-1 sm:text-left">
           <h2 className="text-3xl font-extrabold tracking-wide md:text-5xl">

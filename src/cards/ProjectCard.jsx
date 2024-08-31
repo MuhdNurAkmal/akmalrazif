@@ -2,33 +2,11 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const ProjectCard = ({ img, title, description, url, github }) => {
   return (
-    <article className="bg-white rounded-lg shadow-md hover:shadow-xl duration-300">
-      <span>
-        <img src={img} className="w-full object-fill rounded-t-lg h-64" />
-      </span>
-      <div className="capitalize p-8">
-        <h2 className="text-lg tracking-wide font-medium text-black text-center">
-          {title}
-        </h2>
-        <div className="mt-4 flex gap-x-4">
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue"
-          >
-            <FaGlobe className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
-          <a
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue"
-          >
-            <FaGithub className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
-        </div>
-      </div>
+    <article className="">
+      <img src={img} className="object-contain rounded-xl" />
+      <h2 className="capitalize text-xl tracking-wide font-medium text-mainText text-center py-4 leading-loose">
+        {title}
+      </h2>
     </article>
   );
 };
