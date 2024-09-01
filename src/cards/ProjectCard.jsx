@@ -2,7 +2,7 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const ProjectCard = ({ img, title, description, url, github }) => {
   return (
-    <article className="bg-boxColor p-3 rounded-xl hover:scale-110">
+    <article className="bg-gradientColor p-3 rounded-xl sm:hover:scale-105">
       <img src={img} className="object-contain rounded-xl" />
       <div className="px-2 my-4">
         <h2 className="capitalize text-xl text-mainText tracking-wide font-medium">
