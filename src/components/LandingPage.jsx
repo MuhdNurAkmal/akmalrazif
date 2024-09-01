@@ -3,14 +3,15 @@ import profpics from "../assets/profpics.jpg";
 
 const LandingPage = () => {
   return (
-    <div className="py-20 bg-bgImg bg-cover" id="/">
+    <div className="py-20" id="/">
       <div className="align-element grid justify-center sm:grid-cols-2 items-center gap-14">
         <article className="order-2 text-center sm:order-1 sm:text-left">
           <h2 className="text-3xl font-extrabold tracking-wide md:text-5xl">
             Hi, I'm
           </h2>
           <h1 className="text-5xl font-extrabold tracking-wide md:text-7xl">
-            <span className="text-secondaryText">Akmal</span>&nbsp;Razif
+            <span className="text-accentText">Akmal</span>
+            &nbsp;Razif
           </h1>
           <div className="flex flex-col-reverse mt-6 gap-y-8 items-center sm:flex-row">
             <div className="flex gap-x-4 justify-center sm:justify-start">
@@ -24,7 +25,7 @@ const LandingPage = () => {
             <div>
               <button
                 type="button"
-                className="border py-3 px-4 bg-white text-black text-center rounded-lg font-bold leading-loose tracking-wider sm:ml-8 sm:py-2"
+                className="text-lg py-3 px-4 bg-secondaryGradient text-mainText text-center rounded-lg font-bold leading-loose tracking-wider sm:ml-8 sm:py-2"
               >
                 Download CV
               </button>

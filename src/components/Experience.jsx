@@ -18,24 +18,28 @@ const Experience = () => {
               <VerticalTimeline className="sm:mr-96">
                 <VerticalTimelineElement
                   contentStyle={{
-                    background: "#1e40af",
-                    color: "#FAF9F6",
+                    // #5899ff
+                    background: "rgba(22, 29, 111, 0.6)",
+                    color: "#f2f0ff",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid #1e40af",
+                    borderRight: "7px solid rgba(22, 29, 111, 0.6)",
                   }}
                   date=<div className="mr-6">{experience.date}</div>
-                  iconStyle={{ background: "#1e40af", color: "#FAF9F6" }}
+                  iconStyle={{
+                    background: "rgba(22, 29, 111, 0.6)",
+                    color: "#f2f0ff",
+                  }}
                   icon={icon}
                   position={"right"}
                 >
-                  <h3 className="vertical-timeline-element-title font-bold text-lg tracking-wide">
+                  <h3 className="vertical-timeline-element-title font-bold text-lg text-mainText tracking-wide opacity-100">
                     {experience.title}
                   </h3>
-                  <h4 className="vertical-timeline-element-subtitle text-sm italic sm:text-base">
+                  <h4 className="vertical-timeline-element-subtitle text-sm italic text-mainText sm:text-base">
                     {experience.location}
                   </h4>
-                  <div className="text-justify">
+                  <div className="text-justify text-secondaryText">
                     <p>{experience.desc}</p>
                   </div>
                 </VerticalTimelineElement>

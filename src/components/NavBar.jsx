@@ -17,11 +17,11 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-10 bg-[#020c2d]">
+      <nav className="sticky top-0 z-10 bg-mainBg">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
             <h2 className="text-3xl font-bold">
-              Mal<span className="text-secondaryText">Code</span>
+              Mal<span className="text-accentText">Code</span>
             </h2>
             <button
               onClick={toggleMenu}
