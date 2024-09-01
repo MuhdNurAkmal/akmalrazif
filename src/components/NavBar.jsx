@@ -49,7 +49,7 @@ const NavBar = () => {
                   onSetActive={() => handleSetActive(id)}
                   className={`capitalize text-lg tracking-wide cursor-pointer transition duration-300 ${
                     activeLink === id
-                      ? "text-accentText font-bold border-b-2 tracking-wider"
+                      ? "text-accentText font-bold tracking-wider sm:border-b-2"
                       : "hover:text-accentText"
                   }`}
                 >
