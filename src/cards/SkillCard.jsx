@@ -1,6 +1,9 @@
 const SkillCard = ({ id, title, icon }) => {
   return (
-    <article key={id} className="flex flex-col items-center justify-center">
+    <article
+      key={id}
+      className="flex flex-col items-center justify-center hover:scale-125"
+    >
       <div className="mb-2 sm:mb-5">{title}</div>
       <span>{icon}</span>
     </article>

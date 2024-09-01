@@ -18,16 +18,15 @@ const Experience = () => {
               <VerticalTimeline className="sm:mr-96">
                 <VerticalTimelineElement
                   contentStyle={{
-                    // #5899ff
-                    background: "rgba(22, 29, 111, 0.6)",
+                    background: "linear-gradient(45deg, #0368ff, #5899ff)",
                     color: "#f2f0ff",
                   }}
                   contentArrowStyle={{
-                    borderRight: "7px solid rgba(22, 29, 111, 0.6)",
+                    borderRight: "7px solid #5899ff",
                   }}
                   date=<div className="mr-6">{experience.date}</div>
                   iconStyle={{
-                    background: "rgba(22, 29, 111, 0.6)",
+                    background: "#0368ff",
                     color: "#f2f0ff",
                   }}
                   icon={icon}
@@ -39,7 +38,7 @@ const Experience = () => {
                   <h4 className="vertical-timeline-element-subtitle text-sm italic text-mainText sm:text-base">
                     {experience.location}
                   </h4>
-                  <div className="text-justify text-secondaryText">
+                  <div className="text-justify text-mainText">
                     <p>{experience.desc}</p>
                   </div>
                 </VerticalTimelineElement>

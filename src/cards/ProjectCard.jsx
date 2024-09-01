@@ -2,14 +2,14 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const ProjectCard = ({ img, title, description, url, github }) => {
   return (
-    <article className="bg-slate-800 p-2 rounded-xl">
+    <article className="bg-boxColor p-3 rounded-xl hover:scale-110">
       <img src={img} className="object-contain rounded-xl" />
-      <div className="px-2 my-2">
+      <div className="px-2 my-4">
         <h2 className="capitalize text-xl text-mainText tracking-wide font-medium">
           {title}
         </h2>
         <p className="my-4 text-secondaryText">
-          Project description {description}
+          Assalamualaikum, saya akmal...ini projek {description}
         </p>
       </div>
       <div className="flex gap-x-4 p-2 text-3xl hover:cursor-pointer">

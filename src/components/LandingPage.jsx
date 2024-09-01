@@ -1,9 +1,10 @@
 import { FaCode, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import profpics from "../assets/profpics.jpg";
+import resume from "../resume/Muhammad Nur Akmal Mohamad Razif (Resume).pdf";
 
 const LandingPage = () => {
   return (
-    <div className="py-20" id="/">
+    <div className="py-20 " id="/">
       <div className="align-element grid justify-center sm:grid-cols-2 items-center gap-14">
         <article className="order-2 text-center sm:order-1 sm:text-left">
           <h2 className="text-3xl font-extrabold tracking-wide md:text-5xl">
@@ -23,12 +24,14 @@ const LandingPage = () => {
               </a>
             </div>
             <div>
-              <button
-                type="button"
-                className="text-lg py-3 px-4 bg-secondaryGradient text-mainText text-center rounded-lg font-bold leading-loose tracking-wider sm:ml-8 sm:py-2"
+              <a
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg p-4 bg-gradientColor text-mainText text-center rounded-lg font-bold leading-loose tracking-wider sm:ml-8 sm:p-4"
               >
-                Download CV
-              </button>
+                My Resume
+              </a>
             </div>
           </div>
         </article>
