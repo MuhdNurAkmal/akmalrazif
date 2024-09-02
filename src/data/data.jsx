@@ -6,14 +6,14 @@ import aidev from "../assets/aidev.svg";
 export const links = [
   { id: nanoid(), href: "about", text: "about" },
   { id: nanoid(), href: "skills", text: "skills" },
-  { id: nanoid(), href: "projects", text: "projects" },
+  { id: nanoid(), href: "projects", text: "works" },
   // { id: nanoid(), href: "contact", text: "contact me" },
 ];
 
 export const experiences = [
   {
     id: nanoid(),
-    title: "Developer",
+    title: "Full Stack Developer",
     location: "Freelance",
     desc: "Working as a freelance developer on various projects, focusing on web development and data analytics. Engaged in both frontend and backend development tasks to create functional and user-friendly applications.",
     date: "Aug 2023 - Present",

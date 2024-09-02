@@ -13,7 +13,8 @@ export default {
         boxColor: "rgb(66 66 69 / 70%)",
       },
       fontFamily: {
-        figtree: ["Figtree"],
+        rubik: ["Rubik"],
+        publicsans: ["Public Sans"],
       },
       backgroundImage: {
         bgImg: "url('./assets/bgLanding.jpg')",

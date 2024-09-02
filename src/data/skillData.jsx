@@ -20,8 +20,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -43,8 +43,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -88,8 +88,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -139,11 +139,11 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
-        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+        <path fill="#E65" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
         <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
         <path
           fill="#FFF"
@@ -164,8 +164,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
@@ -189,8 +189,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
@@ -206,8 +206,8 @@ export const skills = [
     title: "PHP",
     icon: (
       <svg
-        width="100px"
-        height="100px"
+        width="px"
+        height="px"
         viewBox="0 0 32 32"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -240,8 +240,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -283,8 +283,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <rect width="1.5" height="9" x="22.75" y="1" fill="#78909c"></rect>
@@ -316,8 +316,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -341,8 +341,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -369,8 +369,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
@@ -388,8 +388,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <polygon fill="#40c4ff" points="26,4 6,24 12,30 38,4"></polygon>
@@ -415,8 +415,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <polygon
@@ -466,8 +466,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <rect width="5" height="10" x="18" y="4" fill="#1a237e"></rect>
@@ -486,8 +486,8 @@ export const skills = [
     title: "PyTorch",
     icon: (
       <svg
-        width="100px"
-        height="100px"
+        width="px"
+        height="px"
         viewBox="-27 0 310 310"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -508,8 +508,8 @@ export const skills = [
     title: "TensorFlow",
     icon: (
       <svg
-        width="100px"
-        height="100px"
+        width="px"
+        height="px"
         viewBox="-9 0 274 274"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -541,8 +541,8 @@ export const skills = [
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100"
-        height="100"
+        width=""
+        height=""
         viewBox="0 0 48 48"
       >
         <path
