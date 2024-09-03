@@ -18,7 +18,7 @@ export default {
         publicsans: ["Public Sans"],
       },
       backgroundImage: {
-        bgImg: "url('./assets/backgroudImage.png')",
+        bgImg: "url('./assets/bgImage.svg')",
         gradientColor: "linear-gradient(-70deg, #2A6BF2 0%, #2D3794 100%)",
       },
     },
