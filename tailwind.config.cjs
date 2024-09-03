@@ -5,20 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        mainBg: "#000",
-        mainText: "#f2f0ff",
-        secondaryText: "#b5b3bC",
-        accentText: "#5899ff",
-        primaryColor: "#0368ff",
-        boxColor: "rgb(66 66 69 / 70%)",
+        mainBg: "#1B1B1B",
+        mainText: "#FFFFFF",
+        secondaryText: "#DAE3EF",
+        tertiaryText: "#EEEEEE",
+        accentColor: "#62C7FF",
+        boxColor: "#202020",
+        borderCustom: "rgba(95, 164, 234, 0.5)",
       },
       fontFamily: {
         rubik: ["Rubik"],
         publicsans: ["Public Sans"],
       },
       backgroundImage: {
-        bgImg: "url('./assets/bgLanding.jpg')",
-        gradientColor: "linear-gradient(45deg, #0368ff, #5899ff)",
+        bgImg: "url('./assets/backgroudImage.png')",
+        gradientColor: "linear-gradient(-70deg, #2A6BF2 0%, #2D3794 100%)",
       },
     },
   },

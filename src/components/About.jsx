@@ -3,20 +3,22 @@ import { experiences } from "../data/data";
 
 const About = () => {
   return (
-    <section className="align-element pt-24" id="about">
-      <div className="sm:flex flex-row items-center">
+    <section className="align-element py-16">
+      <div id="about" className="pt-10">
         <SectionTitle text="get to know more" title="about me" />
       </div>
-      <div className="pt-8">
+      <div className="py-4">
         {experiences.map((experience) => {
           return (
-            <article className="py-4 border-y tracking-wide">
-              <p className="text-md mb-3">{experience.date}</p>
-              <h1 className="text-3xl font-bold">{experience.title}</h1>
-              <h2 className="text-xl text-secondaryText mt-1">
+            <article className="py-4 tracking-wide border-y">
+              <p className="mb-3 text-secondaryText">{experience.date}</p>
+              <h1 className="text-2xl font-bold text-accentColor">
+                {experience.title}
+              </h1>
+              <h2 className="text-lg text-mainText mt-1">
                 {experience.location}
               </h2>
-              <p className="my-4 text-secondaryText">{experience.desc}</p>
+              <p className="my-5 text-secondaryText">{experience.desc}</p>
             </article>
           );
         })}

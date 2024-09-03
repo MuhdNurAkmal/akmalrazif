@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="bg-black py-4">
+      <div className="py-4">
         <div className="align-element flex-col text-center">
           <div className="capitalize">
             &copy; {currentYear} akmal razif. all rights reserved.

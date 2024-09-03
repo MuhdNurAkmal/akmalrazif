@@ -23,11 +23,11 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-10 bg-mainBg">
+      <nav className="top-0">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
             <h2 className="text-3xl font-bold">
-              Mal<span className="text-accentText">Code</span>
+              <span className="text-accentColor">mal</span>zip
             </h2>
             <button
               onClick={toggleMenu}
@@ -53,10 +53,10 @@ const NavBar = () => {
                   duration={0}
                   onClick={() => handleSetActive(id)}
                   onSetActive={() => handleSetActive(id)}
-                  className={`capitalize text-lg tracking-wide cursor-pointer transition duration-300 ${
+                  className={`capitalize text-lg tracking-widest cursor-pointer transition duration-300 ${
                     activeLink === id
-                      ? "text-accentText font-bold tracking-wider sm:border-b-2"
-                      : "hover:text-accentText"
+                      ? "font-bold tracking-widest text-accentColor sm:border-b-2 sm:border-b-borderCustom"
+                      : "hover:text-accentColor"
                   }`}
                 >
                   {text}
@@ -65,20 +65,12 @@ const NavBar = () => {
             })}
           </div>
           <div className="hidden sm:block">
-            <div className="flex gap-x-5 text-3xl items-center">
-              <a href="https://www.linkedin.com/in/akmalrazif/">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/MuhdNurAkmal">
-                <FaGithub />
-              </a>
-              <a
-                href="mailto:akmaln02@gmail.com"
-                className="text-center text-sm px-4 py-3 flex items-center rounded-2xl border"
-              >
-                Message Me
-              </a>
-            </div>
+            <a
+              href="mailto:akmaln02@gmail.com"
+              className="text-center px-4 py-3 flex items-center rounded-xl bg-gradientColor"
+            >
+              Message Me
+            </a>
           </div>
         </div>
       </nav>
