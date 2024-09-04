@@ -15,11 +15,17 @@ export const useFetchProjects = () => {
     try {
       const response = await client.getEntries({ content_type: "projects" });
       const projects = response.items.map((item) => {
-        const { title, url, image, description, github } = item.fields;
+        const { title, url, image, description, github, publishedDate } =
+          item.fields;
         const id = item.sys.id;
         const img = image?.fields?.file?.url;
-        return { id, img, title, description, url, github };
+        return { id, img, title, description, url, github, publishedDate };
       });
+
+      projects.sort(
+        (a, b) => new Date(b.publishedDate) - new Date(a.publishedDate)
+      );
+
       setProjects(projects);
       setLoading(false);
     } catch (response) {
