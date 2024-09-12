@@ -1,12 +1,6 @@
 import { useState } from "react";
 import { links } from "../data/data";
-import {
-  FaBars,
-  FaEnvelope,
-  FaGithub,
-  FaLinkedin,
-  FaTimes,
-} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -37,9 +31,9 @@ const NavBar = () => {
             </button>
           </div>
           <div
-            className={`flex-col flex gap-x-8 sm:flex-row ${
-              isOpen ? "flex gap-y-2 z-10 mt-5" : "hidden"
-            } sm:flex sm:items-center`}
+            className={`${
+              isOpen ? "gap-y-2 mt-5" : "hidden"
+            } flex-col flex gap-x-8 sm:flex-row sm:flex sm:items-center sm:mt-0`}
           >
             {links.map((link) => {
               const { id, href, text } = link;
@@ -67,7 +61,7 @@ const NavBar = () => {
           <div className="hidden sm:block">
             <a
               href="mailto:akmaln02@gmail.com"
-              className="text-center px-4 py-3 flex items-center rounded-xl bg-gradientColor"
+              className="text-center px-4 py-3 flex items-center rounded-xl bg-gradientBtn"
             >
               Message Me
             </a>

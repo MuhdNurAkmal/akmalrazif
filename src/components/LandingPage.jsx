@@ -8,7 +8,7 @@ const LandingPage = () => {
         <article className="order-2 text-center sm:order-1 sm:text-left">
           <h2 className="text-2xl font-extrabold tracking-wide md:text-4xl">
             Hello, I'm <br />
-            <span className="text-accentColor text-5xl md:text-7xl">
+            <span className="bg-gradientColor bg-clip-text text-transparent text-5xl md:text-7xl">
               Akmal Razif
             </span>
           </h2>
@@ -19,12 +19,14 @@ const LandingPage = () => {
           <div className="flex mt-6 gap-x-4 text-5xl justify-center items-center sm:justify-start sm:text-4xl">
             <a
               href="https://www.linkedin.com/in/akmalrazif/"
+              target="_blank"
               className="hover:text-accentColor hover:scale-110"
             >
               <FaLinkedin />
             </a>
             <a
               href="https://github.com/MuhdNurAkmal"
+              target="_blank"
               className="hover:text-accentColor hover:scale-110"
             >
               <FaGithubSquare />
@@ -32,7 +34,12 @@ const LandingPage = () => {
           </div>
         </article>
         <article className="order-1 m-auto sm:order-2">
-          <img src={profpics} className="h-64 lg:h-96 rounded-full" />
+          <div className="relative">
+            <img
+              src={profpics}
+              className="h-64 lg:h-96 p-2 rounded-full ring-4"
+            />
+          </div>
         </article>
       </div>
     </div>

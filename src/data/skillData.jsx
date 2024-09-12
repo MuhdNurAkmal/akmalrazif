@@ -363,7 +363,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "TailwindCSS",
+    title: "Tailwind CSS",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

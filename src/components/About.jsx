@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="align-element py-16">
       <div id="about" className="pt-10">
-        <SectionTitle text="get to know more" title="about me" />
+        <SectionTitle title="about me" />
       </div>
       <div className="py-4">
         {experiences.map((experience) => {
@@ -15,7 +15,7 @@ const About = () => {
               <h1 className="text-2xl font-bold text-accentColor">
                 {experience.title}
               </h1>
-              <h2 className="text-lg text-mainText mt-1">
+              <h2 className="text-lg text-primaryText mt-1">
                 {experience.location}
               </h2>
               <p className="my-5 text-secondaryText">{experience.desc}</p>

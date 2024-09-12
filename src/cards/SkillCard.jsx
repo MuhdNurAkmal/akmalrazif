@@ -2,11 +2,12 @@ const SkillCard = ({ id, title, icon }) => {
   return (
     <article
       key={id}
-      className="flex flex-col items-center justify-center sm:hover:scale-125"
+      className="flex p-2 items-center gap-4 rounded-lg bg-boxColor drop-shadow-lg hover:scale-110"
     >
-      <div className="mb-2 sm:mb-2">{title}</div>
-      <p className="h-24">{icon}</p>
+      <p className="h-10 w-10">{icon}</p>
+      <p className="">{title}</p>
     </article>
   );
 };
+
 export default SkillCard;
