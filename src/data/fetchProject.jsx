@@ -19,7 +19,15 @@ export const useFetchProjects = () => {
           item.fields;
         const id = item.sys.id;
         const img = image?.fields?.file?.url;
-        return { id, img, title, description, url, github, publishedDate };
+        return {
+          id,
+          img,
+          title,
+          description,
+          url,
+          github,
+          publishedDate,
+        };
       });
 
       projects.sort(
