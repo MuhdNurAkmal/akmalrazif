@@ -11,7 +11,7 @@ const About = () => {
         {experiences.map((experience) => {
           return (
             <article className="py-4 tracking-wide border-y flex gap-6 flex-col items-center md:flex-row">
-              <div className="flex items-center w-48">
+              <div className="flex items-center w-48 hidden">
                 <img src={experience.logo} alt="" className="min-w-36" />
               </div>
               <div>
