@@ -12,9 +12,9 @@ const LandingPage = () => {
               Akmal Razif
             </span>
           </h2>
-          <p className="mt-4 text-xl">
-            I am passionate about Full Stack Development, Data Science &
-            Artificial Intelligence.
+          <p className="mt-4 text-lg">
+            Passionate Self-Taught Learner with a Focus on Full Stack
+            Development, Data Science, & Artificial Intelligence
           </p>
           <div className="flex mt-6 gap-x-4 text-5xl justify-center items-center sm:justify-start sm:text-4xl">
             <a

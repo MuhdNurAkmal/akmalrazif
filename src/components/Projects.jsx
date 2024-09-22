@@ -8,7 +8,7 @@ const Projects = () => {
     <section className="align-element py-16">
       <div id="projects" className="pt-10">
         <SectionTitle title="recent projects" />
-        <div className="py-16 grid md:grid-cols-3 gap-8 ">
+        <div className="py-16 grid lg:grid-cols-3 gap-8 justify-center">
           {projects.map((project) => {
             return <ProjectCard key={project.id} {...project} />;
           })}
