@@ -16,6 +16,13 @@ export const links = [
 export const experiences = [
   {
     id: nanoid(),
+    title: "Full Stack Developer",
+    location: "Crescita Technology (M) Sdn Bhd",
+    desc: "Independently managing full-stack development for web applications, including frontend and backend development, API creation, testing, and deployment on VPS. Responsible for designing and implementing user-friendly interfaces and robust backend services, ensuring the applications are secure, efficient, and scalable. Oversee all stages of development from planning to deployment, maintaining high standards in code quality and project delivery.",
+    date: "October 2024 - Present",
+  },
+  {
+    id: nanoid(),
     title: "Web Developer",
     location: "Freelance",
     desc: "Working as a freelance developer on various projects, focusing on web development. Engaged in both frontend and backend development tasks to create functional and user-friendly applications. Collaborated closely with clients to discuss project requirements and UI design, ensuring the final product aligns with their vision and needs.",
