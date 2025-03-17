@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="top-0">
+      <nav className="top-0 sticky bg-mainBg z-10">
         <div className="align-element flex flex-col justify-between py-4 sm:flex-row sm:items-center">
           <div className="flex items-center w-full sm:w-auto">
             <h2 className="text-3xl font-bold">

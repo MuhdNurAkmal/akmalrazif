@@ -5,6 +5,7 @@ import aidev from "../assets/aidev.svg";
 import kmpk from "../assets/logo-kmpk.png";
 import ukm from "../assets/logo-ukm.png";
 import amic from "../assets/logo-amic.png";
+import crescita from "../assets/logo-crescita.png";
 
 export const links = [
   { id: nanoid(), href: "/", text: "" },
@@ -18,8 +19,9 @@ export const experiences = [
     id: nanoid(),
     title: "Full Stack Developer",
     location: "Crescita Technology (M) Sdn Bhd",
-    desc: "Independently managing full-stack development for web applications, including frontend and backend development, API creation, testing, and deployment on VPS. Responsible for designing and implementing user-friendly interfaces and robust backend services, ensuring the applications are secure, efficient, and scalable. Oversee all stages of development from planning to deployment, maintaining high standards in code quality and project delivery.",
+    desc: "Responsible for full-stack web application development, including design, implementation, testing, and deployment. Focused on building user-friendly interfaces and scalable, secure backend systems while ensuring optimal performance and reliability. Experienced in developing real-time sensor monitoring and management systems to enable continuous data updates and improve operational efficiency. Proficient in automating data acquisition using Node-RED and IoT to minimize manual intervention and streamline workflows.",
     date: "October 2024 - Present",
+    logo: crescita,
   },
   {
     id: nanoid(),

@@ -1,5 +1,6 @@
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import profpics from "../assets/profpics.jpg";
+import resume from "../documents/Muhammad Nur Akmal Mohamad Razif (Resume).pdf";
 
 const LandingPage = () => {
   return (
@@ -16,20 +17,29 @@ const LandingPage = () => {
             Passionate Self-Taught Learner with a Focus on Full Stack
             Development, Data Science, & Artificial Intelligence
           </p>
-          <div className="flex mt-6 gap-x-4 text-5xl justify-center items-center sm:justify-start sm:text-4xl">
+          <div className="flex flex-col sm:flex-row items-center sm:gap-x-4 gap-y-4 mt-6">
+            <div className="flex gap-x-4 text-5xl sm:text-4xl">
+              <a
+                href="https://www.linkedin.com/in/akmalrazif/"
+                target="_blank"
+                className="hover:text-accentColor hover:scale-110"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/MuhdNurAkmal"
+                target="_blank"
+                className="hover:text-accentColor hover:scale-110"
+              >
+                <FaGithubSquare />
+              </a>
+            </div>
             <a
-              href="https://www.linkedin.com/in/akmalrazif/"
-              target="_blank"
-              className="hover:text-accentColor hover:scale-110"
+              href={resume}
+              download="Muhammad Nur Akmal Mohamad Razif (Resume).pdf"
+              className="px-4 py-3 flex items-center rounded-xl bg-gradientBtn w-fit"
             >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://github.com/MuhdNurAkmal"
-              target="_blank"
-              className="hover:text-accentColor hover:scale-110"
-            >
-              <FaGithubSquare />
+              Download my CV
             </a>
           </div>
         </article>

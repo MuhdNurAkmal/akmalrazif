@@ -4,14 +4,14 @@ import { experiences } from "../data/data";
 const About = () => {
   return (
     <section className="align-element py-16">
-      <div id="about" className="pt-10">
+      <div id="about" className="pt-24">
         <SectionTitle title="about me" />
       </div>
       <div className="py-4">
         {experiences.map((experience) => {
           return (
             <article className="py-4 tracking-wide border-y flex gap-6 flex-col items-center md:flex-row">
-              <div className="flex items-center w-48 hidden">
+              <div className="flex items-center w-48">
                 <img src={experience.logo} alt="" className="min-w-36" />
               </div>
               <div>
