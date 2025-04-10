@@ -11,7 +11,7 @@ const ProjectCard = ({ img, title, description, url }) => {
         <p className="font-normal text-gray-400 mb-4 flex-grow">
           {description}
         </p>
-        <div className="mt-auto">
+        {/* <div className="mt-auto">
           {url ? (
             <a
               href={url}
@@ -22,7 +22,7 @@ const ProjectCard = ({ img, title, description, url }) => {
           ) : (
             <p className="text-white text-base italic">Coming Soon</p>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );
