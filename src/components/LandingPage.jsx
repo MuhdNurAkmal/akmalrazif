@@ -1,6 +1,6 @@
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import profpics from "../assets/profpics.jpg";
-import resume from "../documents/Muhammad Nur Akmal Mohamad Razif (Resume).pdf";
+import resume from "../documents/Muhammad Nur Akmal bin Mohamad Razif.pdf";
 
 const LandingPage = () => {
   return (
